@@ -1,0 +1,173 @@
+[2025-09-11 15:38:30] Log created.
+[2025-09-11 15:38:30] Found TI-84 Plus CE: DEVICE ID 0451:e008 on Bus 000 Address 001 =================
+ bLength                :   0x12 (18 bytes)
+ bDescriptorType        :    0x1 Device
+ bcdUSB                 :  0x200 USB 2.0
+ bDeviceClass           :    0x0 Specified at interface
+ bDeviceSubClass        :    0x0
+ bDeviceProtocol        :    0x0
+ bMaxPacketSize0        :   0x40 (64 bytes)
+ idVendor               : 0x0451
+ idProduct              : 0xe008
+ bcdDevice              :  0x220 Device 2.2
+ iManufacturer          :    0x1 Texas Instruments Incorporated
+ iProduct               :    0x2 TI-84 Plus CE
+ iSerialNumber          :    0x0 
+ bNumConfigurations     :    0x3
+  CONFIGURATION 1: 500 mA ==================================
+   bLength              :    0x9 (9 bytes)
+   bDescriptorType      :    0x2 Configuration
+   wTotalLength         :   0x23 (35 bytes)
+   bNumInterfaces       :    0x1
+   bConfigurationValue  :    0x1
+   iConfiguration       :    0x0 
+   bmAttributes         :   0x80 Bus Powered
+   bMaxPower            :   0xfa (500 mA)
+    INTERFACE 0: Vendor Specific ===========================
+     bLength            :    0x9 (9 bytes)
+     bDescriptorType    :    0x4 Interface
+     bInterfaceNumber   :    0x0
+     bAlternateSetting  :    0x0
+     bNumEndpoints      :    0x2
+     bInterfaceClass    :   0xff Vendor Specific
+     bInterfaceSubClass :    0x1
+     bInterfaceProtocol :    0x0
+     iInterface         :    0x0 
+      ENDPOINT 0x81: Bulk IN ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :   0x81 IN
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x0
+      ENDPOINT 0x2: Bulk OUT ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :    0x2 OUT
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x0
+  CONFIGURATION 2: 0 mA ====================================
+   bLength              :    0x9 (9 bytes)
+   bDescriptorType      :    0x2 Configuration
+   wTotalLength         :   0x23 (35 bytes)
+   bNumInterfaces       :    0x1
+   bConfigurationValue  :    0x2
+   iConfiguration       :    0x0 
+   bmAttributes         :   0xc0 Self Powered
+   bMaxPower            :    0x0 (0 mA)
+    INTERFACE 0: Vendor Specific ===========================
+     bLength            :    0x9 (9 bytes)
+     bDescriptorType    :    0x4 Interface
+     bInterfaceNumber   :    0x0
+     bAlternateSetting  :    0x0
+     bNumEndpoints      :    0x2
+     bInterfaceClass    :   0xff Vendor Specific
+     bInterfaceSubClass :    0x1
+     bInterfaceProtocol :    0x0
+     iInterface         :    0x0 
+      ENDPOINT 0x81: Bulk IN ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :   0x81 IN
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x0
+      ENDPOINT 0x2: Bulk OUT ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :    0x2 OUT
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x0
+  CONFIGURATION 3: 100 mA ==================================
+   bLength              :    0x9 (9 bytes)
+   bDescriptorType      :    0x2 Configuration
+   wTotalLength         :   0x23 (35 bytes)
+   bNumInterfaces       :    0x1
+   bConfigurationValue  :    0x3
+   iConfiguration       :    0x0 
+   bmAttributes         :   0x80 Bus Powered
+   bMaxPower            :   0x32 (100 mA)
+    INTERFACE 0: Vendor Specific ===========================
+     bLength            :    0x9 (9 bytes)
+     bDescriptorType    :    0x4 Interface
+     bInterfaceNumber   :    0x0
+     bAlternateSetting  :    0x0
+     bNumEndpoints      :    0x2
+     bInterfaceClass    :   0xff Vendor Specific
+     bInterfaceSubClass :    0x1
+     bInterfaceProtocol :    0x0
+     iInterface         :    0x0 
+      ENDPOINT 0x81: Bulk IN ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :   0x81 IN
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x0
+      ENDPOINT 0x2: Bulk OUT ===============================
+       bLength          :    0x7 (7 bytes)
+       bDescriptorType  :    0x5 Endpoint
+       bEndpointAddress :    0x2 OUT
+       bmAttributes     :    0x2 Bulk
+       wMaxPacketSize   :   0x40 (64 bytes)
+       bInterval        :    0x0
+[2025-09-11 15:38:30] OUT endpoint: 0x02
+[2025-09-11 15:38:30] IN endpoint: 0x81
+[2025-09-11 15:38:30] Starting custom transaction...
+[2025-09-11 15:38:30] --- Step 1: OUT Initialization ---
+[2025-09-11 15:38:30] Preparing to send: 000000040100000400 (9 bytes)
+[2025-09-11 15:38:30] Sent 9 bytes
+[2025-09-11 15:38:30] --- Step 2: IN Init response ---
+[2025-09-11 15:38:30] Received 9 bytes: 0000000402000003ff
+[2025-09-11 15:38:30] Got expected response: 0000000402000003ff
+[2025-09-11 15:38:30] --- Step 3: OUT Capability request ---
+[2025-09-11 15:38:30] Preparing to send: 00000010040000000a0001000300010000000007d0 (21 bytes)
+[2025-09-11 15:38:30] Sent 21 bytes
+[2025-09-11 15:38:30] --- Step 4: IN Ack ---
+[2025-09-11 15:38:30] Received 7 bytes: 0000000205e000
+[2025-09-11 15:38:30] Got expected response: 0000000205e000
+[2025-09-11 15:38:30] --- Step 5: IN Capability data ---
+[2025-09-11 15:38:30] Received 15 bytes: 0000000a04000000040012000007d0
+[2025-09-11 15:38:30] Got expected response: 0000000a04000000040012000007d0
+[2025-09-11 15:38:30] --- Step 6: OUT Ack ---
+[2025-09-11 15:38:30] Preparing to send: 0000000205e000 (7 bytes)
+[2025-09-11 15:38:30] Sent 7 bytes
+[2025-09-11 15:38:30] --- Step 7: OUT Request device info ---
+[2025-09-11 15:38:30] Preparing to send: 0000000a040000000400070001000a (15 bytes)
+[2025-09-11 15:38:30] Sent 15 bytes
+[2025-09-11 15:38:30] --- Step 8: IN Ack ---
+[2025-09-11 15:38:30] Received 7 bytes: 0000000205e000
+[2025-09-11 15:38:30] Got expected response: 0000000205e000
+[2025-09-11 15:38:30] --- Step 9: IN Device info ---
+[2025-09-11 15:38:30] Received 19 bytes: 0000000e040000000800080001000a00000101
+[2025-09-11 15:38:30] Got expected response: 0000000e040000000800080001000a00000101
+[2025-09-11 15:38:30] --- Step 10: OUT Ack ---
+[2025-09-11 15:38:30] Preparing to send: 0000000205e000 (7 bytes)
+[2025-09-11 15:38:30] Sent 7 bytes
+[2025-09-11 15:38:30] --- Step 11: OUT Variable type request ---
+[2025-09-11 15:38:30] Preparing to send: 00000024040000001e0007000e000800190023002d003700380012000c0011000f001e001f001d0000 (41 bytes)
+[2025-09-11 15:38:30] Sent 41 bytes
+[2025-09-11 15:38:30] --- Step 12: IN Ack ---
+[2025-09-11 15:38:30] Received 7 bytes: 0000000205e000
+[2025-09-11 15:38:30] Got expected response: 0000000205e000
+[2025-09-11 15:38:30] --- Step 13: IN Variable info ---
+[2025-09-11 15:38:31] Received 122 bytes: 00000075040000006f0008000e00080000020073001900000101002301002d0000010100370000010100380000010000120000080000000000310000000c000008000000000004000000110000080000000000132b47000f0000080000000000400000001e0000020140001f00000200f0001d00000110000001
+[2025-09-11 15:38:31] Got expected response: 00000075040000006f0008000e00080000020073001900000101002301002d0000010100370000010100380000010000120000080000000000310000000c000008000000000004000000110000080000000000132b47000f0000080000000000400000001e0000020140001f00000200f0001d00000110000001
+[2025-09-11 15:38:31] --- Step 14: OUT Ack ---
+[2025-09-11 15:38:31] Preparing to send: 0000000205e000 (7 bytes)
+[2025-09-11 15:38:31] Sent 7 bytes
+[2025-09-11 15:38:31] --- Step 15: OUT Program type request ---
+[2025-09-11 15:38:31] Preparing to send: 00000020040000001a0007000c00010004000600070009000b002d001b00480049004b005d (37 bytes)
+[2025-09-11 15:38:31] Sent 37 bytes
+[2025-09-11 15:38:31] --- Step 16: IN Ack ---
+[2025-09-11 15:38:31] Received 7 bytes: 0000000205e000
+[2025-09-11 15:38:31] Got expected response: 0000000205e000
+[2025-09-11 15:38:31] --- Step 17: IN Program info ---
+[2025-09-11 15:38:31] Received 97 bytes: 0000005c04000000560008000c00010000040000001300040000020007000600000109000700000101000900000400050601000b00000400050700002d00000101001b000001010048000002001100490000020006004b00000100005d00000101
+[2025-09-11 15:38:31] Got expected response: 0000005c04000000560008000c00010000040000001300040000020007000600000109000700000101000900000400050601000b00000400050700002d00000101001b000001010048000002001100490000020006004b00000100005d00000101
+[2025-09-11 15:38:31] --- Step 18: OUT Final ack ---
+[2025-09-11 15:38:31] Preparing to send: 0000000205e000 (7 bytes)
+[2025-09-11 15:38:31] Sent 7 bytes
+[2025-09-11 15:38:31] Transaction completed!
